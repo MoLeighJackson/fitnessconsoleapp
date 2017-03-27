@@ -1,0 +1,6 @@
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\bin\Debug\FitnessConsoleApp.exe.config
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\bin\Debug\FitnessConsoleApp.exe
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\bin\Debug\FitnessConsoleApp.pdb
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\obj\Debug\FitnessConsoleApp.csprojResolveAssemblyReference.cache
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\obj\Debug\FitnessConsoleApp.exe
+c:\users\moleigh\documents\visual studio 2017\Projects\FitnessConsoleApp\FitnessConsoleApp\obj\Debug\FitnessConsoleApp.pdb
