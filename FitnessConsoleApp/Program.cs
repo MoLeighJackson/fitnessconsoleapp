@@ -12,8 +12,8 @@ namespace FitnessConsoleApp
         {
 
             int totalMinsExercised = 0;
-            bool continueTracking = true;
 
+            bool continueTracking = true;
             while (continueTracking)
             {
                 // 1. Prompt user for minutes exercised
@@ -24,15 +24,22 @@ namespace FitnessConsoleApp
 
                 string userTimeInput = Console.ReadLine();
 
-                // 3. Parse the integer entered by user - display mins exercised to the screen
+                if (userTimeInput == "QUIT")
+                {
+                    continueTracking = false;
+                }
+                else
+                {
+                    // 3. Parse the integer entered by user - add mins to exercise total - display mins exercised to the screen
 
-                int minutes = int.Parse(userTimeInput);
-                totalMinsExercised = totalMinsExercised + minutes;
+                    int minutes = int.Parse(userTimeInput);
+                    totalMinsExercised = totalMinsExercised + minutes;
 
-                Console.WriteLine("You entered " + userTimeInput + " mins");
-                Console.WriteLine("You have been exercising for " + totalMinsExercised + " mins total");
-
+                    Console.WriteLine("You entered " + userTimeInput + " mins");
+                    Console.WriteLine("You have been exercising for " + totalMinsExercised + " mins total");
+                }
             }
+            Console.WriteLine("Goodbye");
         }
     }
 }
